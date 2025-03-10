@@ -6,5 +6,3 @@ with open("requirements.txt", "r") as file:
 reqs = [each.strip() for each in lines]
 
 setup(name="cookies", packages=find_packages(), install_requires=reqs)
-
-#review
